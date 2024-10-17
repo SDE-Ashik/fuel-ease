@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "873469841792",
+    "project_id": "phoneauth-dbe59",
+    "storage_bucket": "phoneauth-dbe59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873469841792:android:929769c65c2d0c98c3b165",
+        "android_client_info": {
+          "package_name": "com.example.fuelease"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEVVlsTUXxq7BzQcK-WFICkLrEw-yvUZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873469841792:android:d47d23e3e234373fc3b165",
+        "android_client_info": {
+          "package_name": "com.example.lovelink"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEVVlsTUXxq7BzQcK-WFICkLrEw-yvUZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

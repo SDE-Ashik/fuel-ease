@@ -1,0 +1,54 @@
+name: fuelease
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  otp_pin_field: ^1.2.9+1
+  firebase_core: ^3.5.0
+  firebase_auth: ^5.3.0
+  provider: ^6.1.2
+  cloud_firestore: ^5.4.2
+  get_storage: ^2.1.1
+  curved_navigation_bar: ^1.0.6
+  ionicons: ^0.2.2
+  google_mobile_ads: ^5.1.0
+  carousel_slider: ^5.0.0
+  flutter_stripe: ^11.2.0
+  dio: ^5.7.0
+  google_maps_flutter: ^2.9.0
+  geolocator: ^13.0.1
+  location: ^7.0.1
+  google_maps_flutter_android: ^2.14.10
+  geocoding: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Metropolis
+      fonts:
+        - asset: assets/fonts/Metropolis-Regular.otf
+        - asset: assets/fonts/Metropolis-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Metropolis-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/Metropolis-Bold.otf
+          weight: 700
+        - asset: assets/fonts/Metropolis-ExtraBold.otf
+          weight: 800

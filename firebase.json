@@ -1,0 +1,41 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "phoneauth-dbe59",
+          "appId": "1:873469841792:android:929769c65c2d0c98c3b165",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "phoneauth-dbe59",
+          "configurations": {
+            "android": "1:873469841792:android:929769c65c2d0c98c3b165",
+            "ios": "1:873469841792:ios:2cf1c4d22c04eb46c3b165",
+            "macos": "1:873469841792:ios:2cf1c4d22c04eb46c3b165",
+            "web": "1:873469841792:web:0aad1aba2738f091c3b165",
+            "windows": "1:873469841792:web:a9f3bbf66308def5c3b165"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}
